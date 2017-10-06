@@ -1,0 +1,338 @@
+﻿#grad {
+    font-family:verdana;
+    padding:25px;
+    background: red; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(-90deg, red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, green, yellow); /* Standard syntax (must be last) */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:110%;
+}
+li a.active {
+    color: white;
+    background-color: red;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color:brown;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#search {
+  margin-top:15px;
+}
+#seastyle {
+  margin-left:400px;
+}
+#bcrumb{
+  background-color:white;
+  font-size:75%;
+  border-color:white;
+  border-radius:15px;
+}
+footer {
+  color:brown;
+  text-align:center;
+}
+#policy a{
+  text-decoration:none;
+  color:brown;
+  font-weight:bold;
+}
+#logo {
+    color: red;
+    font-family:Areial, "Times New Romans", Times;
+    position:absolute;
+    top:0;
+    right:0;
+    padding: 5px;
+    margin-right:20px;
+    margin-top:10px;
+    font-size:140%;
+    font-style:italic;
+    font-weight:bold;
+    border:2px solid white;
+    border-radius:30px;
+    background-color:yellow;
+}
+#infoTable {
+  margin:auto;
+  width:80%;
+  background-color:yellow;
+}
+#infoTable, th, td {
+  border: 1px solid green;
+}
+
+tr:hover {
+  background-color:blue; 
+  color:yellow;
+}
+th {
+  height:50px;
+  background-color:yellow;
+  color:green;
+  font-weight:bold;
+  font-size:110%;
+}
+
+td {
+  height:30px;
+  font-weight:bold;
+  font-size:110%;
+}
+#tCaption {
+    caption-side: bottom;
+    color:brown;
+    font-size:110%;
+    font-weight:bold;
+}
+#forms {
+  background-color:red;
+}
+#abimg {
+   position:absolute;
+   right:160px;
+   bottom:-375px;
+   border:2px solid green;
+   border: 25px solid darkred;
+   border-style:groove;
+   border-radius:15px;
+
+}
+#about {
+  text-align:center;
+  font-size:160%;
+  color:brown;
+}
+#hist {
+   position:absolute;
+   left:180px;
+   bottom:-375px;
+   border: 25px solid green;
+   width:320px;
+   height:230px;
+   overflow:auto;
+   background-color:brown;
+   color:white;
+   padding:15px;
+   font-weight:bold;
+   border-style:groove;
+   border-radius:15px;
+}
+.hear {
+  float:left;
+  border:2px solid green;
+  border-style:groove;
+  border-radius:15px;
+  width:300px;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  color:red;
+  background-color:lightgrey;
+}
+.call {
+  float:right;
+  border:15px solid green;
+  width:300px;
+  padding:10px;
+  margin:10px;
+  text-align:center;
+  color:white;
+  background-color:black;
+  border:2px solid green;
+  border-style:groove;
+  border-radius:15px;
+}
+
+.pos {
+  position:absolute;
+  top:160px;
+  left:100px;
+}
+#hyp {
+  position:absolute;
+  top:160px;
+  right:400px;
+
+}
+#loc {
+  margin-left:20px;
+}
+.back {
+   background-color:black;
+   margin-top:0px;
+   border:2px solid green;
+   border-radius:15px;
+}
+#stay_connected {
+  border:2px solid white;
+  width:250px;
+  padding:5px;
+  text-align:center;
+  border-radius:15px;
+  padding-top:15px;
+  margin-left:40%;
+}
+#conimage {
+  color:brown;
+}
+#thks {
+   text-align:center;
+   font-size:120%;
+}
+.wgr {
+  float:left;
+  clear:left;
+  margin-left:5px;
+  width:50%;
+}
+
+#iwed {
+  position:absolute;
+  top:140px;
+  right:90px;
+}
+
+#ifun {
+  position:absolute;
+  top:510px;
+  right:90px;
+}
+
+#ipr {
+  position:absolute;
+  top:870px;
+  right:90px;
+}
+.wrapping {
+    float: right;
+    margin: 0px 0px 10px 20px;
+}
+.rapper {
+    margin-left:200px;
+}
+#wed, #fun, #pr, #sta{
+  margin-left:70px;
+  font-size:120%;
+  font-weight:bold;
+  color:green;
+}
+.uno li{
+  color:darkred;
+  font-style:italic;
+  padding:5px;
+  font-size:110%;
+  font-weight:bold;
+  margin-left:120px;
+}
+.accessibility {
+   font-size:120%;
+   color:brown;
+   font-weight:bold;
+}
+.img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 20px 0px 5px;
+    border-radius:15px;
+}
+#narow {
+   margin-left:50px;
+}
+#event, .eve {
+  text-align:center;
+  color:white;
+  
+}
+.tra {
+  margin-left:0px;
+ 
+}
+div.gallery {
+    margin: 13px;
+    margin-left:110px;
+    float: left;
+    width: 220px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color:white;
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: green;
+    color: white;
+}
+textarea{
+    background-color: yellow;
+    color: green;
+    font-weight:bold;
+    font-size:110%;
+}
+input[type = submit]{
+    background-color: green;
+    color: white;
+    font-weight:bold;
+    font-size:110%;
+    margin-left:30px;
+}

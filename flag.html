@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Ethiopian and Eritrean Flags-HTML Canvas, JavaSscript</title>
+
+<meta name="description=" content="This page displays the Ethiopian Original falg, and the Eritrean flag with a button click">
+
+<meta name="ROBOTS" content="NOFOLOW">
+
+<meta name="keyword" content="Flags, Ethiopian Flag, Eritrean flag, HTML Canvas, JavaScript">
+
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+
+<style>
+	@media screen and (max-width:700px){
+		hl {
+			display:none;
+		}
+	}
+	@media screen and (min-width = 700px and max-width = 960px){
+		#resize {
+			font-size:70%;
+		}
+	}
+
+}
+
+#myCanvas {
+  
+}
+#flag {
+  visibility:hidden;
+}
+#flage {
+  visibility:hidden;
+}
+button {
+  margin-left:20px;
+}
+</style>
+</head>
+
+<body id="grad">
+<header id="top">
+<span id="logo">HabeshaPlace</span>
+<br>
+<hr>
+<ul>
+<li><a class="active" href="index.html">Home</a></li>
+<li><a href="about_us.html">About Us</a></li>
+<li><a href="thank_yous.html">Thank yous</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="amharic.html">Amharic</a></li>
+<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Services</a>
+    <div class="dropdown-content">
+      <a href="event.html">Event Planning</a>
+      <a href="gallery.html">Event Gallery</a>
+      <a href="forms.html">Forms</a>
+      <a href="training.html">Training</a>
+      <a href="informer.html">Community Information</a>
+    </div>
+  </li>
+</ul>
+  <hr>
+  </header>
+<br>
+
+
+<img id="flag" src="image/ethflag.jpg" alt="The Original Ethiopian Flag" width="300" height="180">
+
+<canvas id="etCanvas" width="290" height="174"
+style="border:1px hidden white;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<br>
+<p><button onclick="myEthiopianFlag()">click to see the Orininal Ethiopian Flag</button></p>
+
+<img id="flage" src="image/ertflag.png" alt="The Eritean Flag" width="400" height="180">
+
+<canvas id="erCanvas" width="301" height="181"
+style="border:1px hidden white;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<p><button onclick="myEritreanFlag()">click to see the Eritrean Flag</button></p>
+
+<script>
+function myEthiopianFlag() {
+    var c = document.getElementById("etCanvas");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("flag");
+    ctx.drawImage(img,10,10);
+}
+
+function myEritreanFlag() {
+    var c = document.getElementById("erCanvas");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("flage");
+    ctx.drawImage(img,10,10);
+}
+</script>
+
+<br><br>
+<br>
+<footer>
+    <br>
+    <br>
+    <hr>
+    © <small><i>Copyright 2017 by Bisrat W Tadesse.</i></small>
+<br><small><i><a href="mailto:tadesseb794@gmail.com">tadesseb794@gmail.com</a></i></small>
+<div id="valf">
+   Validate HTML and CSS<br>
+   <a href="https://validator.w3.org/nu/?showsource=yes&useragent=Validator.nu%2FLV+http%3A%2F%2Fvalidator.w3.org%2Fservices&doc=http%3A%2F%2Fnova.umuc.edu%2F%7Ect386e09%2FfinalWebProject%2Fflag.html">
+        <img style="border:0;width:88px;height:31px"
+            src="image/html5.png"
+            alt="Valid HTML!" />
+   </a>
+   <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fnova.umuc.edu%2F~ct386e09%2FfinalWebProject%2Fcss%2Fmystyle.css">
+        <img style="border:0;width:88px;height:31px"
+            src="image/cssval.gif"
+            alt="Valid CSS!" />
+</a>
+<br>
+<pre id="policy"><a href="accessibility.html">ACCESSIBILITY STATEMENT  |</a> <a href="terms.html">TERMS & CONDITIONS  |</a>  <a href="privacy.html">PRIVACY POLICY  |</a>  <a href="references.html">REFERENCES</a>  |<a href="#">XML Sitemap  </a></pre>
+</div>
+</footer>
+<br><br>
+</body>
+</html>
